@@ -1,0 +1,43 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hex_colors{
+    text-align: center;
+
+}
+
+.hex_colors h1{
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+
+.hex_colors h2{
+    margin-top: 5%;
+    border: 1px solid black;
+}
+
+@keyframes changecolor{
+    0%{
+        color: red;
+    }
+    20%{
+        color: yellow;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: purple;
+    }
+    100%{
+        color: aqua;
+    }
+}

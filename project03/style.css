@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Chenla&family=Hanuman:wght@300;400&family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    font-family: 'Hanuman', serif;
+    background-color: #f5f5f5 !important;
+}
+h1{
+    font-weight: bold;
+
+}
+.khmer_date_time {
+    font-family: 'Battambang', cursive;
+    
+    padding: 20px;
+}
+
+.khmer_date_time div {
+    border-radius: 0px !important;
+    background: #fff;
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    position: relative;
+    border: 1px white solid;
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+    text-align: center;
+    font-size: 34px;
+}
+.clockpart{
+    padding:0px !important;
+    min-width:60px !important;
+
+    display: inline-block;
+}
+.clockmin{
+    padding:0px !important;
+    width:5px !important;
+    min-width:5px !important;
+
+    display: inline-block;
+}
+
+.english_date_time {
+    font-family: 'Acme',Arial;
+    
+    width: 100%;
+    padding: 20px;
+}
+
+.english_date_time div {
+    border-radius: 0px !important;
+    background: #fff;
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    position: relative;
+    border: 1px white solid;
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+    text-align: center;
+    font-size: 34px;
+}
