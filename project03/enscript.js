@@ -15,13 +15,20 @@ var enmonths = [
     "December",
 ];
 var endays = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
+    // "Sunday",
+    // "Monday",
+    // "Tuesday",
+    // "Wednesday",
+    // "Thursday",
+    // "Friday",
+    // "Saturday"
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
 ];
 
 var entime = ["12",
